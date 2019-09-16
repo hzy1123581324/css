@@ -176,39 +176,6 @@ input{
 .lh112{
 	line-height: 14.93333vw;
 }
-/*size长宽1:1*/
-.size128{
-	width:17.066667vw !important;
-	height:17.066667vw !important;
-}
-.size152{
-	width:20.266667vw;
-	height:20.266667vw;
-}
-.size156{
-	width:20.8vw;
-	height:20.8vw;
-}
-.size160{
-	width: 21.33333vw;
-	height: 21.33333vw;
-}
-.size172{
-	width:22.933333vw;
-	height:22.933333vw;
-}
-.size200{
-	width:26.66667vw;
-	height:26.66667vw;
-}
-.size270{
-	width:36vw;
-	height:36vw;
-}
-.size371{
-	width:49.466667vw;
-	height:49.466667vw;
-}
 
 /******获取验证码*********/
 .code {
