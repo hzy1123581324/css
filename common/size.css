@@ -110,6 +110,31 @@
 .h96{height:12.8vw!important}
 .h98{height:13.06667vw!important}
 .h100{height:13.3333vw!important}
+.h104{
+	height: 13.866666vw;
+}
+.h112{
+	height: 14.93333vw;
+}
+.h128{
+	height: 17.06666667vw;
+}
+.h132{
+	height: 17.6vw;
+}
+.h164{
+	height: 21.86667vw;
+}
+.h266{
+	height: 35.466667vw;
+}
+.h288{
+	height: 38.4vw;
+}
+.h316{
+	height: 42.133333vw;
+}
+
 
 .h192{height:25.6vw!important}
 /* *********************************************最小高度*****我是分割线********************************************** */
