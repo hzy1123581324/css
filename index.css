@@ -1,7 +1,7 @@
 /*v1.0*/
 @charset "UTF-8";
 @import "common/grid.css";/*栅格布局*/
-@import "common/grid.css";/*栅格布局*/
+@import "common/flex.css";/*弹性布局*/
 @import "common/size.css";/*尺寸*/
 @import "common/font.css";/*字体设置*/
 @import "common/margin.css";/*字体设置*/
@@ -10,14 +10,9 @@
 @import "common/box.css";/*盒模型*/
 @import "common/trans.css";/*动画/过渡/转换*/
 @import "common/icon.css";/*图标*/
-@import "common/bnt.css";/*按钮自带阴影*/
 @import "common/position.css";/*按钮自带阴影*/
 @import "common/component.css";/*组件样式*/
-#app{
-	width:100%;
-	overflow: auto;
-	height: 100%;
-}
+
 /*重设默认样式*/
 body, html,
 header,section,footer,/*语意标签*/
