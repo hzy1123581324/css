@@ -108,7 +108,7 @@ normal：使用浏览器默认的换行规则。
 break-all:允许再单词内换行
 keep-all:只能在半角空格或连字符处换行 */
 /*************限制行数**************/
-[class*='txt_line']{
+.txt_line{
 	overflow : hidden;
 	text-overflow: ellipsis;
 	display: -webkit-box;
@@ -117,10 +117,18 @@ keep-all:只能在半角空格或连字符处换行 */
 }
 /************显示两行*****************/
 .txt_line2{
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 2;
 }
 /************显示三行*****************/
 .txt_line3{
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 3;
 }
 
@@ -131,12 +139,13 @@ keep-all:只能在半角空格或连字符处换行 */
 .lh1n{
 	line-height:1!important;
 }
-.lh2n {
-	line-height: 1.8 !important;
-}
 .lh1n5 {
 	line-height: 1.5 !important;
 }
+.lh2n {
+	line-height: 1.8 !important;
+}
+.lh22{line-height:22rpx !important;}
 .lh24{line-height:24rpx !important;}
 .lh26{line-height:26rpx !important;}
 .lh28{line-height:28rpx !important;}
@@ -170,28 +179,4 @@ keep-all:只能在半角空格或连字符处换行 */
 .lh86{line-height:86rpx !important;}
 .lh88{line-height:88rpx !important;}
 .lh90{line-height:90rpx !important;}
-.lh92{line-height:92rpx !important;}
-.lh94{line-height:94rpx !important;}
-.lh96{line-height:96rpx !important;}
-.lh98{line-height:98rpx !important;}
-.lh100{line-height:100rpx !important;}
-.lh102{line-height:102rpx !important;}
-.lh104{line-height:104rpx !important;}
-.lh106{line-height:106rpx !important;}
-.lh108{line-height:108rpx !important;}
-.lh110{line-height:110rpx !important;}
-.lh112{line-height:112rpx !important;}
-.lh114{line-height:114rpx !important;}
-.lh116{line-height:116rpx !important;}
-.lh118{line-height:118rpx !important;}
-.lh120{line-height:120rpx !important;}
-.lh122{line-height:122rpx !important;}
-.lh124{line-height:124rpx !important;}
-.lh126{line-height:126rpx !important;}
-.lh128{line-height:128rpx !important;}
-.lh130{line-height:130rpx !important;}
-.lh132{line-height:132rpx !important;}
-.lh134{line-height:134rpx !important;}
-.lh136{line-height:136rpx !important;}
-.lh138{line-height:138rpx !important;}
-.lh140{line-height:140rpx !important;}
+

@@ -247,10 +247,10 @@ width:20%  !important;
 .w130{width:130rpx!important}
 .w140{width:140rpx!important}
 .w150{width:150rpx!important}
-.w152{width: 152rpx;}
+.w152{width:152rpx;}
 .w156{width:156rpx;}
 .w160{width:160rpx!important}
-.w168{width: 168rpx;}
+.w168{width:168rpx;}
 .w170{width:170rpx!important}
 .w180{width:180rpx!important}
 .w190{width:190rpx!important}
