@@ -21,10 +21,10 @@
 	border-radius: 8rpx;
 }
 .radius_10{
-		border-radius: 10rpx;
+	border-radius: 10rpx;
 }
 .radius_12{
-		border-radius: 12rpx;
+	border-radius: 12rpx;
 }
 .radius_16{
 	border-radius: 16rpx;
