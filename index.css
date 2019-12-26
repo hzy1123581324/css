@@ -9,7 +9,7 @@
 @import "common/color.css";/*背景颜色/字体颜色/边框颜色*/
 @import "common/box.css";/*盒模型*/
 @import "common/trans.css";/*动画/过渡/转换*/
-@import "common/icon.css";/*图标*/
+/* @import "common/icon.css";/*图标 */ 
 @import "common/position.css";/*定位*/
 /* @import "common/component.css";/*组件样式*/ 
 
