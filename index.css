@@ -12,6 +12,8 @@
 /* @import "common/icon.css";/*图标 */ 
 @import "common/position.css";/*定位*/
 /* @import "common/component.css";/*组件样式*/ 
+@import "./font-awesome.css"; /*引入图标字体*/
+@import "./scenes/main.css"; /*场景样式*/
 
 page{
 	height: auto;
@@ -88,7 +90,10 @@ input{
 	border-color: #509664;
 }
 .bg_main{
-	background-color: #19b5d6;
+	background-color: #2E74F3;
+}
+.color_main{
+	color: #2E74F3;
 }
 
 
@@ -115,6 +120,7 @@ input{
 .status7{
 	color: #f0bd26
 }
+
 
 
 
