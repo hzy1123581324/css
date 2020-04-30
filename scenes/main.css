@@ -114,4 +114,79 @@
 	height: 86upx;
 	display: -webkit-box;
 	display: flex;
+	padding: 0 30upx;
+	background-color: #fff;
+	font-size: 28upx;
+	color: #222;
+	margin-bottom: 2upx;
+	font-weight: 600;
+}
+.link-list .link-lf{
+	min-width: 8em;
+	flex-grow: 1;
+	display: -webkit-box;
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+}
+.link-list .link-rg{
+	min-width: 8em;
+	flex-shrink: 0;
+	display: -webkit-box;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.link-list .link-rgTxt{
+	color: #888888;
+	font-size: 28upx;
+	padding-top: 8upx;
+
+}
+.link-list .icon{
+	margin-left: 30upx;
+	font-size: 48upx;
+	color: #666;
+}
+
+
+/****带箭头的白色背景跳转链接列表***/
+
+.cell-list{
+	height: 86upx;
+	display: -webkit-box;
+	display: flex;
+	padding: 0 30upx;
+	background-color: #fff;
+	font-size: 28upx;
+	color: #222;
+	margin-bottom: 2upx;
+	font-weight: 600;
+}
+.cell-list .cell-lf{
+	min-width: 8em;
+	flex-grow: 1;
+	display: -webkit-box;
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+}
+.cell-list .cell-rg{
+	min-width: 8em;
+	flex-shrink: 0;
+	display: -webkit-box;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.cell-list .cell-rgTxt{
+	color: #888888;
+	font-size: 28upx;
+	padding-top: 8upx;
+
+}
+.cell-list .icon{
+	margin-left: 30upx;
+	font-size: 48upx;
+	color: #666;
 }

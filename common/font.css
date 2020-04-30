@@ -62,8 +62,27 @@
 	text-align: right !important;
 }
 .f_b{
-	font-weight: bold;
+	font-weight: 600;
 }
+.f_b300{
+	font-weight: 300;
+}
+.f_b400{
+	font-weight: 400;
+}
+.f_b500{
+	font-weight: 500;
+}
+.f_b600{
+	font-weight: 600;
+}
+.f_b700{
+	font-weight: 700;
+}
+.f_b800{
+	font-weight: 800;
+}
+
 /*缩进*/
 .f_indent_1{/*缩进一字*/
 	text-indent: 1em;
