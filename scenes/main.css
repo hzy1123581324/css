@@ -61,6 +61,7 @@
 .into-label, .into-item .label{
 	display: inline-block;
 	height: 64upx;
+	padding-right: .5em;
 	line-height: 64upx;
 	min-width: 3em;
 	flex-shrink: 0;
@@ -180,13 +181,13 @@
 	justify-content: flex-end;
 }
 .cell-list .cell-rgTxt{
-	color: #888888;
+	color: #222222;
 	font-size: 28upx;
-	padding-top: 8upx;
+	/* padding-top: 18upx; */
 
 }
 .cell-list .icon{
-	margin-left: 30upx;
+	margin-left: 20upx;
 	font-size: 48upx;
-	color: #666;
+	color: #333;
 }
