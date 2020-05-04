@@ -1,5 +1,6 @@
 /*v1.0*/
 @charset "UTF-8";
+@import "common/animate.css";
 @import "common/grid.css";/*栅格布局*/
 @import "common/size.css";/*尺寸*/
 @import "common/flex.css";/*弹性布局*/
@@ -37,7 +38,7 @@ page{
 	list-style: none;
 	box-sizing: border-box;
 	outline: 0;
-	font-weight: 400;
+	font-weight: inherit;
 	position: relative;
 	font-style: normal;
 	vertical-align: bottom;
