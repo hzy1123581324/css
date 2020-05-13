@@ -53,6 +53,8 @@
 	height: 100%;
 	flex-grow: 1;
 	width: atuo;
+	color: #2B2F34;
+	font-weight: 500;
 	font-size: inherit;
 }
 /* 底部只有一根边框的输入框 */
@@ -80,6 +82,8 @@
 	flex-grow: 1;
 	width: atuo;
 	font-size: inherit;
+	color: #2B2F34;
+	font-weight: 500;
 }
 
 
@@ -112,6 +116,8 @@
 	height: 100%;
 	flex-grow: 1;
 	width: atuo;
+	color: #2B2F34;
+	font-weight: 500;
 	font-size: inherit;
 }
 
@@ -136,7 +142,7 @@
 	display: -webkit-box;
 	display: flex;
 	align-items: center;
-	font-weight: 600;
+	font-weight: 500;
 }
 .link-list .link-rg{
 	min-width: 8em;
