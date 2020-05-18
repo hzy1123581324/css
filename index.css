@@ -1,6 +1,6 @@
 /*v1.0*/
 @charset "UTF-8";
-@import "common/grid.css";/*栅格布局*/
+@import "common/reset.css";/*重设样式*/
 @import "common/grid.css";/*栅格布局*/
 @import "common/size.css";/*尺寸*/
 @import "common/font.css";/*字体设置*/
@@ -13,47 +13,72 @@
 @import "common/bnt.css";/*按钮自带阴影*/
 @import "common/position.css";/*按钮自带阴影*/
 @import "common/component.css";/*组件样式*/
+
+:root {
+    --geist-space: 4px;
+    --geist-space-2x: 8px;
+    --geist-space-4x: 16px;
+    --geits-space-8x: 32px;
+    --geist-space-16x: 64px;
+    --geist-space-32x: 128px;
+    --geist-space-small: 32px;
+    --geist-space-medium: 40px;
+    --geist-space-large: 48px;
+    --geist-space-gap: 24px;
+    --geist-space-gap-half: 12px;
+    --geist-space-gap-quarter: var(--geist-space-2x);
+    --geist-gap: var(--geist-space-gap);
+    --geist-gap-half: var(--geist-space-gap-half);
+    --geist-gap-quarter: var(--geist-space-gap-quarter);
+    --geist-gap-double: var(--geist-space-large);
+    --geist-space-negative: -4px;
+    --geist-space-2x-negative: -8px;
+    --geist-space-4x-negative: -16px;
+    --geits-space-8x-negative: -32px;
+    --geist-space-16x-negative: -64px;
+    --geist-space-32x-negative: -128px;
+    --geist-space-small-negative: -32px;
+    --geist-space-medium-negative: -40px;
+    --geist-space-large-negative: -48px;
+    --geist-space-gap-negative: -24px;
+    --geist-space-gap-half-negative: -12px;
+    --geist-space-gap-quarter-negative: var(--geist-space-2x-negative);
+    --geist-gap-negative: var(--geist-space-gap-negative);
+    --geist-gap-half-negative: var(--geist-space-gap-half-negative);
+    --geist-gap-quarter-negative: var(--geist-space-gap-quarter-negative);
+    --geist-gap-double-negative: var(--geist-space-large-negative);
+    --geist-page-margin: var(--geist-space-gap);
+    --geist-page-width: 1000px;
+    --geist-page-width-with-margin: 1048px;
+    --geist-radius: 5px;
+    --geist-marketing-radius: 8px;
+    --geist-cyan: #79ffe1;
+    --geist-cyan-dark: #50e3c2;
+    --geist-cyan-darker: #29bc9b;
+    --geist-purple: #f81ce5;
+    --geist-violet: #7928ca;
+    --geist-alert: #ff0080;
+    --font-sans: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    --font-mono: Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace;
+    --header-height: 64px;
+    --header-border-bottom: inset 0 -1px 0 0 rgba(0,0,0,0.1);
+    --header-background: hsla(0,0%,100%,0.8);
+    --geist-form-large-font: 1rem;
+    --geist-form-large-line-height: 1.5rem;
+    --geist-form-large-height: var(--geist-space-large);
+    --geist-form-small-font: 0.875rem;
+    --geist-form-small-line-height: 0.875rem;
+    --geist-form-small-height: var(--geist-space-small);
+    --geist-form-font: 0.875rem;
+    --geist-form-line-height: 1.25rem;
+    --geist-form-height: var(--geist-space-medium);
+}
 #app{
 	width:100%;
 	overflow: auto;
 	height: 100%;
 }
-/*重设默认样式*/
-body, html,
-header,section,footer,/*语意标签*/
-div,p,/*块级元素*/
-span,img,i,
-h1,h2,h3,h4,h5,h6,
-ol,li,ul,dl,dd,dt,/*列表*/
-button, input,textarea {/**/
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	-webkit-margin-before: 0em;/*css3新增*/
-	-webkit-margin-after: 0em;/*css3新增*/
-	-webkit-margin-start: 0px;/*css3新增*/
-	-webkit-margin-end: 0px;/*css3新增*/
-	text-decoration: none;
-	border: 0;
-	list-style: none;
-	box-sizing: border-box;
-	line-height: inherit;
-	outline: 0;
-	font-weight: 400;
-	position: relative;
-	font-style: normal;
-	/* background-color: inherit; */
-}
-h1,h2,h3,h4,h5,h6{
-	text-align: center;
-}
-textarea{/*去掉右下三角*/
-	resize:none;
-}
-html{
-	max-height: 100%;
-	height:100%;
-}
+
 html,body{
 	width:100%;
 	/*min-height: 100%;*/
@@ -65,20 +90,8 @@ html,body{
 body{
 	background-color: #f6f5fa;
 }
-a{
-	color:inherit;
-	text-decoration: none;
-}
-img{
-	width: 100%;
-	height: auto;
-	vertical-align: bottom;
-}
-input{
-	background-color: transparent;
-	font-size: 3.73333vw;/*28*/
-}
-/*常用*/
+
+/******************常用************************/
 .hide {
 	display: none !important;
 }
@@ -123,348 +136,3 @@ input{
 	color: #509664 !important;
 }
 
-.red{
-	color: #b34545;
-}
-.color_f55{
-	color:#f55;
-}
-.bg_modal{
-	background-color:  rgba(0,0,0,.3);
-}
-
-
-.status0{
-	color: #b74f4f
-}
-.status2{
-	color: #cd3c3c
-}
-.status6{
-	color: #b3b3b3
-}
-.status7{
-	color: #f0bd26
-}
-
-
-
-.h104{
-	height: 13.866666vw;
-}
-.h112{
-	height: 14.93333vw;
-}
-.h128{
-	height: 17.06666667vw;
-}
-.h132{
-	height: 17.6vw;
-}
-.h164{
-	height: 21.86667vw;
-}
-.h266{
-	height: 35.466667vw;
-}
-.h288{
-	height: 38.4vw;
-}
-.h316{
-	height: 42.133333vw;
-}
-.lh112{
-	line-height: 14.93333vw;
-}
-/*size长宽1:1*/
-.size128{
-	width:17.066667vw !important;
-	height:17.066667vw !important;
-}
-.size152{
-	width:20.266667vw;
-	height:20.266667vw;
-}
-.size156{
-	width:20.8vw;
-	height:20.8vw;
-}
-.size160{
-	width: 21.33333vw;
-	height: 21.33333vw;
-}
-.size172{
-	width:22.933333vw;
-	height:22.933333vw;
-}
-.size200{
-	width:26.66667vw;
-	height:26.66667vw;
-}
-.size270{
-	width:36vw;
-	height:36vw;
-}
-.size371{
-	width:49.466667vw;
-	height:49.466667vw;
-}
-
-/******获取验证码*********/
-.code {
-	width: 28.8vw;
-	height: 100%;
-	position: relative;
-}
-.code::before {
-	content: '';
-	position: absolute;
-	width: 1px;
-	height: 60%;
-	background-color: #d7d7d7;
-	left: 0;
-	top: 20%;
-}
-/****表单控件****/
-.btn{
-	width:92%;
-	border-radius: 5px;
-	line-height: 44px;
-	text-align: center;
-}
-
-/*占位符样式*/   /*用逗号隔开无效*/
-::-webkit-input-placeholder/* 使用webkit内核的浏览器 */
-{
-	 color:#999;
-	 font-size: 1em;
-}
-:-moz-placeholder
-{
-	 color:#999;
-	 font-size: 1em;
-}
-::-moz-placeholder/* Firefox版本4-18 */
-{
-	 color:#999;
-	 font-size: 1em;
-}
-:-ms-input-placeholde/* Firefox版本19+ */
-{
-	 color:#999;
-	 font-size: 1em;
-}
-
-
-.driving_license{
-	width: 35.2vw;/*264*/
-	height:24.666667vw;/*185*/
-}
-.driving_license img{
-	width:100%;
-	height: 100%;
-}
-
-.modalCenter {
-	width: 56vw;
-}
-
-
-
-.bg_tab {
-	background-image: -webkit-linear-gradient(to left,#1ab4de 0,#15b9ba 64%, #0fbe95 100%);
-	background-image: linear-gradient(to left,#1ab4de 0,#15b9ba 64%, #0fbe95 100%);
-}
-
-
-
-.back {
-	width: 6.66667vw;
-	height: 6.66667vw;
-	background-image: url('../images/back.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 3.2vw 5.33333vw;
-}
-.next{
-	width: 4vw;
-	height: 4vw;
-	background-image: url('../images/next.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 2vw 3.3333vw;
-}
-.green{
-	color:#0fbe96;
-}
-.bg_green{
-	background: #0fbe96;
-}
-.blue{
-	color: #1ab5da;
-}
-.bgBlue{
-	background: #1ab5da;
-}
-.status_bar{
-	height: var(--status-bar-height);
-}
-.back_icon {
-	background-image: url('../images/back.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	left: 4vw;
-	top: 2.1333333vw;
-	transform: translateY(2vw);
-	position: fixed;
-	width: 7.6vw;
-	height: 7.6vw;
-	background-color: rgba(44, 44, 44, .8);
-	background-size: 2.1333333vw 3.466667vw;
-	border-radius: 50%;
-	z-index: 999999999;
-}
-.banner {
-	width: 100vw;
-	height: 56vh;
-}
-
-
-.quan {
-	background-image: -webkit-linear-gradient(135deg, #fd7b3d, #ff3c28);
-	background-image: linear-gradient(135deg, #fd7b3d, #ff3c28);
-	border-radius: 0.5333333vw;
-	padding: 0.5333333vw 1.3333vw;
-}
-
-.quan::after,
-.quan::before {
-	content: '';
-	width: 1.3333vw;
-	height: 1.3333vw;
-	border-radius: 50%;
-	background-color: #fff;
-	position: absolute;
-	top: 50%;
-	margin-top: -0.66667vw;
-}
-
-.quan::after {
-	right: 0;
-	margin-right: -0.66667vw;
-}
-
-.quan::before {
-	left: 0;
-	margin-left: -0.66667vw;
-}
-
-
-.handle_tap {
-	width: 11.4666667vw;
-	/* height: 8vw; */
-	/* background-color: rgba(255, 255, 255, 0.9); */
-	/* box-shadow: 0 0.133333vw 1.466667vw rgba(63, 63, 63, 0.2); */
-
-}
-
-.scrollTap {
-	white-space: nowrap;
-	overflow-x: auto;
-}
-
-.tabItem {
-	display: inline-block;
-	min-width: 20%;
-	padding: 0 2.666667vw;
-	text-align: center;
-}
-
-.tabItem .active {
-	color: #ef1c58 !important;
-	position: relative;
-	display: inline-block;
-}
-
-.tabItem .active::after {
-	content: '';
-	width: 120%;
-	height: 0.5333333vw;
-	box-sizing: border-box;
-	border-top: 0.5333333vw solid;
-	bottom: 0;
-	position: absolute;
-	left: -10%;
-}
-.tab_item {
-	width: 18.86667vw;
-	height: 8vw;
-	background-color: #f0f0f0;
-
-}
-.tab_item:not(:nth-child(4n-3)){
-	margin-left: 5.3vw;
-}
-.panel_mask{
-	position: absolute;
-	top:100%;
-	left:0;
-	width: 100vw;
-	height: 100vh;
-	background:rgba(51, 51, 51, .4);
-}
-.swiper-pagination-bullet-active {
-	background: #19b5d9;
-}
-/*********************适配型号*******************************/
-
-@media only screen and (max-width:768px) {
-	.fs-main {
-		
-	}
-	.color-main{
-		
-	}
-
-}
-
-@media only screen and (min-width:768px) {
-	.col-sm-0 {
-		display: none;
-		width: 0
-	}
-
-
-}
-
-@media only screen and (min-width:992px) {
-	.col-md-0 {
-		display: none;
-		width: 0
-	}
-
-}
-
-@media only screen and (min-width:1200px) {
-	.col-lg-0 {
-		display: none;
-		width: 0
-	}
-
-
-
-}
-
-@media only screen and (min-width:1920px) {
-	.col-xl-0 {
-		display: none;
-		width: 0
-	}
-
-
-
-}
-
-.mask{
-	background-color: rgba(51, 51, 51, .4);
-}
