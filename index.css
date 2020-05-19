@@ -31,6 +31,8 @@
     --geist-gap-half: var(--geist-space-gap-half);
     --geist-gap-quarter: var(--geist-space-gap-quarter);
     --geist-gap-double: var(--geist-space-large);
+    --shadow-small: 0 5px 10px rgba(0,0,0,0.12);
+    --geist-background: #fff;
     --geist-space-negative: -4px;
     --geist-space-2x-negative: -8px;
     --geist-space-4x-negative: -16px;
