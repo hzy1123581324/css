@@ -15,24 +15,26 @@
     max-width: var(--max-width);
     width: auto;
     margin: 0 auto;
+    padding: 0 24px;
 }
 /***********************小按钮***************************************/
 
 .mini-btn{
-    min-width: auto;
+    display: inline-block;
+    width: auto;
     height: 24px;
     line-height: 22px;
     font-size: var(--font-main);
     padding: 0 10px 0 10px;
-    border-radius: 4upx;
+    border-radius: 4px;
     border: 1px solid var(--border-color);
     transition: color,border 0.2s ease;
     color: var(--color-grey);
-
+    cursor: pointer;
 }
-.main-btn:hover,.main-btn.hover{
+.mini-btn:hover,.mini-btn.hover{
     color: var(--color-black);
-    border-color: var(--border-color);
+    border-color: var(--color-black);
 }
 
 
