@@ -60,14 +60,7 @@
     --geist-form-line-height: 1.25rem;
     --geist-form-height: var(--geist-space-medium);
 }
-
 :root{
-    --max-width: 1040px;
-    --color-main: #292929;
-    --color-black: #000;
-    --color-grey: #666;
-    --main-color: #303133;
-
     --content-color: #606266;
     --tips-color: #909399;
     --light-color: #c0c4cc;
@@ -98,6 +91,14 @@
     --type-info-disabled: #c8c9cc;
     --type-info-dark: #82848a;
     --type-info-light: #f4f4f5;
-    
+}
+:root{
+    --max-width: 1040px;
+    --color-main: #292929;
+    --color-black: #000;
+    --color-grey: #666;
+    --main-color: var(--color-black);
 
+    --border-color: rgb(234, 234, 234);
+    --font-main: 14px;
 }

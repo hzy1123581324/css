@@ -5,6 +5,11 @@
     margin-left: 15.25pt;
     margin-top: 15.25pt;
 }
+
+.full-screen{
+    width: 100%;
+    height: auto;
+}
 /************************外层容器**********************************/
 .holder{
     max-width: var(--max-width);
@@ -14,5 +19,36 @@
 /***********************小按钮***************************************/
 
 .mini-btn{
-    
+    min-width: auto;
+    height: 24px;
+    line-height: 22px;
+    font-size: var(--font-main);
+    padding: 0 10px 0 10px;
+    border-radius: 4upx;
+    border: 1px solid var(--border-color);
+    transition: color,border 0.2s ease;
+    color: var(--color-grey);
+
+}
+.main-btn:hover,.main-btn.hover{
+    color: var(--color-black);
+    border-color: var(--border-color);
+}
+
+
+
+
+/******************标题************************/
+.main-title{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.subtitle{
+    color: var(--color-grey);
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
 }
