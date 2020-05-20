@@ -9,6 +9,7 @@
 @import "common/padding.css";/*字体设置*/
 @import "common/color.css";/*颜色*/
 @import "common/box.css";/*盒模型*/
+@import "common/flex.css";/*弹性布局*/
 @import "common/trans.css";/*动画/过渡/转换*/
 @import "common/icon.css";/*图标*/
 @import "common/bnt.css";/*按钮自带阴影*/

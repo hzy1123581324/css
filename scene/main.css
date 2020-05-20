@@ -37,8 +37,45 @@
     border-color: var(--color-black);
 }
 
+/***************************填充色按钮**************************************/
 
+.fill-btn{
+    -webkit-appearance: none;
+    position: relative;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 38px;
+    white-space: nowrap;
+    font-weight: 500;
+    font-family: var(--font-sans);
+    min-width: 200px;
+    height: 40px;
+    font-size: 14px;
+    flex-shrink: 0;
+    color: #fff;
+    background-color: #000;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    padding: 0px 25px;
+    margin: 0px;
+    transition: all 0.2s ease 0s;
+    overflow: hidden;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: var(--geist-radius);
+}
+.fill-btn:hover,.fill-btn.hover{
+    color: #000;
+    background-color: #fff;
 
+}
 
 /******************标题************************/
 .main-title{
@@ -53,4 +90,18 @@
     font-size: 14px;
     line-height: 24px;
     margin: 0;
+}
+
+/*****************跳转链接**************************/
+
+.a-link{
+    color: #0070f3;
+    font-size: inherit;
+    text-decoration: none;
+}
+.a-link::after{
+    content: ' →';
+}
+.a-link.hover,.a-link:hover{
+    text-decoration: underline;
 }
