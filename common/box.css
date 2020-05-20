@@ -3,22 +3,22 @@
 /************边框*********************/
 
 .bor{
-	border: 0.13333vw solid ;
+	border: 1px solid ;
 }
 .bor_btm{
-	border-bottom: 0.13333vw solid #f6f6f6;
+	border-bottom: 1px solid #f6f6f6;
 }
 .bor_top{
-	border-top: 0.13333vw solid #f6f6f6;
+	border-top: 1px solid #f6f6f6;
 }
 .bor_rg{
-	border-right: 0.1333vw solid #f6f6f6;
+	border-right: 1px solid #f6f6f6;
 }
 .radius_6{
-	border-radius: 0.8vw;
+	border-radius: 6px;
 }
 .radius_8{
-	border-radius: 1.0666667vw;
+	border-radius: 8px;
 }
 .radius_10{
 		border-radius: 1.33333vw;

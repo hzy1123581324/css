@@ -59,7 +59,8 @@
 	-webkit-box-align: end;
 	-ms-flex-align: end;
 	align-items: flex-end
-}[class*=col-] {
+}
+[class*=col-] {
 	float: left;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box
@@ -473,6 +474,40 @@
 }
 
 @media only screen and (max-width:768px) {
+	.row--flex.is-xs-justify-center {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	
+	.row--flex.is-xs-justify-end {
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+	}
+	
+	.row--flex.is-xs-justify-space-between {
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	
+	.row--flex.is-xs-justify-space-around {
+		-ms-flex-pack: distribute;
+		justify-content: space-around
+	}
+	
+	.row--flex.is-xs-align-middle {
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center
+	}
+	
+	.row--flex.is-xs-align-bottom {
+		-webkit-box-align: end;
+		-ms-flex-align: end;
+		align-items: flex-end
+	}
 	.col-xs-0 {
 		display: none;
 		width: 0
@@ -926,6 +961,41 @@
 }
 
 @media only screen and (min-width:768px) {
+
+	.row--flex.is-sm-justify-center {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	
+	.row--flex.is-sm-justify-end {
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+	}
+	
+	.row--flex.is-sm-justify-space-between {
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	
+	.row--flex.is-sm-justify-space-around {
+		-ms-flex-pack: distribute;
+		justify-content: space-around
+	}
+	
+	.row--flex.is-sm-align-middle {
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center
+	}
+	
+	.row--flex.is-sm-align-bottom {
+		-webkit-box-align: end;
+		-ms-flex-align: end;
+		align-items: flex-end
+	}
 	.col-sm-0 {
 		display: none;
 		width: 0
@@ -1379,6 +1449,40 @@
 }
 
 @media only screen and (min-width:992px) {
+	.row--flex.is-md-justify-center {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	
+	.row--flex.is-md-justify-end {
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+	}
+	
+	.row--flex.is-md-justify-space-between {
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	
+	.row--flex.is-md-justify-space-around {
+		-ms-flex-pack: distribute;
+		justify-content: space-around
+	}
+	
+	.row--flex.is-md-align-middle {
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center
+	}
+	
+	.row--flex.is-md-align-bottom {
+		-webkit-box-align: end;
+		-ms-flex-align: end;
+		align-items: flex-end
+	}
 	.col-md-0 {
 		display: none;
 		width: 0
@@ -1832,6 +1936,40 @@
 }
 
 @media only screen and (min-width:1200px) {
+	.row--flex.is-lg-justify-center {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	
+	.row--flex.is-lg-justify-end {
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+	}
+	
+	.row--flex.is-lg-justify-space-between {
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	
+	.row--flex.is-lg-justify-space-around {
+		-ms-flex-pack: distribute;
+		justify-content: space-around
+	}
+	
+	.row--flex.is-lg-align-middle {
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center
+	}
+	
+	.row--flex.is-lg-align-bottom {
+		-webkit-box-align: end;
+		-ms-flex-align: end;
+		align-items: flex-end
+	}
 	.col-lg-0 {
 		display: none;
 		width: 0
@@ -2285,6 +2423,40 @@
 }
 
 @media only screen and (min-width:1920px) {
+	.row--flex.is-xl-justify-center {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	
+	.row--flex.is-xl-justify-end {
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+	}
+	
+	.row--flex.is-xl-justify-space-between {
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	
+	.row--flex.is-xl-justify-space-around {
+		-ms-flex-pack: distribute;
+		justify-content: space-around
+	}
+	
+	.row--flex.is-xl-align-middle {
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center
+	}
+	
+	.row--flex.is-xl-align-bottom {
+		-webkit-box-align: end;
+		-ms-flex-align: end;
+		align-items: flex-end
+	}
 	.col-xl-0 {
 		display: none;
 		width: 0

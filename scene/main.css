@@ -105,3 +105,14 @@
 .a-link.hover,.a-link:hover{
     text-decoration: underline;
 }
+.dark_link{
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.5em;
+    cursor: pointer;
+}
+.dark_link:hover,.dark_link.hover{
+    color: #000;
+    text-decoration: underline;
+}
