@@ -42,8 +42,11 @@ body{
 .scrollBox{
 	overflow: auto;
 }
-.opacity{
+.opacity0{
 	opacity: 0;
+}
+.opacity1{
+	opacity: 1;
 }
 .rg {
 	float: right !important;

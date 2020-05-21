@@ -77,7 +77,7 @@
     background-color: #fff;
 
 }
-
+/****************************禁用按钮*************************************/
 .disable-btn{
     cursor: not-allowed;
     color: #888;

@@ -51,6 +51,12 @@
 .f_under{
 	text-decoration: underline;
 }
+/*下划线是虚线*/
+.f_under_dashed{
+
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
 /***********字体排版*******************/
 .txt_c {
 	text-align: center !important;
