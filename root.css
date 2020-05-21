@@ -100,5 +100,6 @@
     --main-color: var(--color-black);
 
     --border-color: rgb(234, 234, 234);
+    --shadow-medium: 0 8px 30px rgba(0,0,0,0.12);
     --font-main: 14px;
 }
