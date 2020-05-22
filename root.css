@@ -103,7 +103,7 @@
     --color-black: #000;
     --color-grey: #666;
     --main-color: var(--color-black);
-
+    --shadow-large: 0 30px 60px rgba(0,0,0,0.12);
     --border-color: rgb(234, 234, 234);
     --shadow-medium: 0 8px 30px rgba(0,0,0,0.12);
     --font-main: 14px;
