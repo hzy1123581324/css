@@ -91,6 +91,11 @@
     --type-info-disabled: #c8c9cc;
     --type-info-dark: #82848a;
     --type-info-light: #f4f4f5;
+    --accents-2: #eaeaea;
+    --geist-fill: currentColor;
+    --geist-stroke: #000;
+
+
 }
 :root{
     --max-width: 1040px;
