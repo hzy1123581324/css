@@ -23,6 +23,7 @@ button, input,textarea {/**/
 	font-weight: inherit;
 	position: relative;
 	font-style: normal;
+	cursor: var(--cursor);
 	/* background-color: inherit; */
 }
 h1,h2,h3,h4,h5,h6{
@@ -40,6 +41,7 @@ a{
 	color:inherit;
 	text-decoration: none;
 }
+
 img{
 	width: 100%;
 	height: auto;

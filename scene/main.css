@@ -59,20 +59,20 @@
     white-space: nowrap;
     font-weight: 500;
     font-family: var(--font-sans);
-    min-width: 200px;
+    min-width: 170px;
     height: 40px;
     font-size: 14px;
     flex-shrink: 0;
     color: #fff;
     background-color: #000;
     user-select: none;
-    cursor: pointer;
+    cursor: var(--cursor);
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     text-decoration: none;
     padding: 0px 25px;
     margin: 0px;
-    transition: all 0.2s ease 0s;
+    transition: var(--tranistion-all);
     overflow: hidden;
     outline: none;
     border: 1px solid #000;
@@ -90,16 +90,21 @@
 }
 /****************************禁用按钮*************************************/
 .disable-btn{
-    cursor: not-allowed;
+    cursor: var(--cursor);
     color: #888;
     filter: grayscale(1);
     min-width: auto;
     height: 24px;
     line-height: 22px;
     padding: 0px 10px;
-    border: 1px solid var(--border-color);
+    border: var(--border);
 }
-
+[class*='-btn']{
+    --cursor: pointer;
+}
+[class*='disable']{
+    --cursor: not-allowed;
+}
 /******************标题************************/
 .main-title{
     font-size: 36px;
@@ -116,17 +121,32 @@
 }
 
 /*****************跳转链接**************************/
+
 /* 蓝色带箭头链接，鼠标移入出现下划线 */
-.a-link{
+.link{
     color: #0070f3;
     font-size: inherit;
     text-decoration: none;
 }
-.a-link::after{
+.link.hover,.link:hover{
+    text-decoration: underline;
+}
+[class*='a-link']{
+    color: #0070f3;
+    font-size: inherit;
+    text-decoration: none;
+}
+[class*='a-link']::after{
     content: ' →';
 }
-.a-link.hover,.a-link:hover{
+[class*='a-link'].hover,[class*='a-link']:hover{
     text-decoration: underline;
+}
+.a-link-lf::before{
+    content: '← ';
+}
+.a-link-lf::after{
+    display: none;
 }
 /* 黑色链接，鼠标移入出现下划线 */
 .dark-link{
@@ -196,4 +216,35 @@
 
 .overflow-scroll-y{
     overflow-y: auto;
+}
+
+
+
+/* ***************状态*********************** */
+.status{
+    background-color: #50e3c2;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+}
+.status:hover::after{
+    content: attr(data-title);
+    white-space : nowrap;
+    position: absolute;
+    border: 1px solid #333;
+    color: #333;
+    background-color: #fff;
+    padding: 6px;
+    font-size: 12px;
+    top: 15px;
+    left: 15px;
+}
+
+
+/*  **************图片****************  */
+.avatar{
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
 }
