@@ -25,7 +25,7 @@
 }
 /***********************小按钮***************************************/
 
-.mini-btn{
+.mini-btn,.medium-btn{
     display: inline-block;
     width: auto;
     height: 24px;
@@ -37,13 +37,26 @@
     transition: color,border 0.2s ease;
     color: var(--color-grey);
     cursor: pointer;
+    background-color: #fff;
     
 }
 .mini-btn:hover,.mini-btn.hover{
     color: var(--color-black);
     border-color: var(--color-black);
 }
-
+.medium-btn{
+    min-width: auto;
+    height: 32px;
+    line-height: 20px;
+    font-size: 0.875rem;
+    padding: 6px 12px;
+    
+    
+}
+.medium-btn:hover,.medium-btn.hover{
+    color: var(--color-black);
+    border-color: var(--color-black);
+}
 /***************************填充色按钮**************************************/
 
 [class*='fill-btn']{
@@ -227,6 +240,7 @@
     height: 10px;
     border-radius: 50%;
     position: relative;
+    margin-right: 10px;
 }
 .status:hover::after{
     content: attr(data-title);
@@ -239,6 +253,7 @@
     font-size: 12px;
     top: 15px;
     left: 15px;
+    z-index: var(--index10);
 }
 
 

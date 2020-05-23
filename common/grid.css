@@ -5,7 +5,7 @@
 
 .row {
 	-webkit-box-sizing: border-box;
-	box-sizing: border-box
+	box-sizing: border-box;
 }
 
 .row::after,.row::before {
@@ -81,6 +81,7 @@ display:block;
 	width: 0;
 	opacity: 0;
 	pointer-events: none;
+	overflow: hidden;
 }
 
 .col-offset-0 {
