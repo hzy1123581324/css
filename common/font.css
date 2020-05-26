@@ -213,12 +213,12 @@ keep-all:只能在半角空格或连字符处换行 */
 
 @media only screen and (max-width:768px) {
 	/* 两倍图 适用于栅格布局*/
-	h1{font-size:3.2vw}/*24*/
-	h2{font-size:4vw}/*30*/
-	h3{font-size:4.8vw}/*36*/
-	h4{font-size:5.6vw}/*42*/
-	h5{font-size:6.4vw}/*48*/
-	h6{font-size:7.2vw}/*54*/
+	/* h1{font-size:3.2vw}
+	h2{font-size:4vw}
+	h3{font-size:4.8vw}
+	h4{font-size:5.6vw}
+	h5{font-size:6.4vw}
+	h6{font-size:7.2vw} */
 	/*字体自适应大小*/
 	.fs-xs-10{font-size:1.3333vw}
 	.fs-xs-12{font-size:1.6vw}
@@ -296,12 +296,12 @@ keep-all:只能在半角空格或连字符处换行 */
 }
 
 @media only screen and (min-width:768px) {
-	h1{font-size:12px}
+	/* h1{font-size:12px}
 	h2{font-size:15px}
 	h3{font-size:18px}
 	h4{font-size:21px}
 	h5{font-size:24px}
-	h6{font-size:27px}
+	h6{font-size:27px} */
 	/*字体自适应大小*/
 	/* 一倍图 */
 	.fs-sm-12{font-size:12px}

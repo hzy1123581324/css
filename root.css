@@ -91,15 +91,60 @@
     --type-info-disabled: #c8c9cc;
     --type-info-dark: #82848a;
     --type-info-light: #f4f4f5;
+    --accents-2: #eaeaea;
+    --geist-fill: currentColor;
+    --geist-stroke: #000;
+
+
 }
 :root{
+    /* 宽度 */
     --max-width: 1040px;
+
+    /* 高度 */
+    --height: 100%;
+
+    /* 字体颜色 */
     --color-main: #292929;
     --color-black: #000;
     --color-grey: #666;
-    --main-color: var(--color-black);
 
-    --border-color: rgb(234, 234, 234);
-    --shadow-medium: 0 8px 30px rgba(0,0,0,0.12);
+    /* 字体大小 */
     --font-main: 14px;
+
+    /* 边框 */
+    --border-color: rgb(234, 234, 234);
+    --border: 1px solid var(--border-color);
+
+    /* 内边距 */
+    --padding-mini: 12px;
+    --padding-medium: calc(var(--padding-mini) * 2);
+    --padding-large: calc(var(--padding-mini) * 3);
+
+    /* 外边距 */
+    --margin-mini: 12px;
+    --margin-medium: calc(var(--margin-mini) * 2);
+    --margin-large: calc(var(--margin-mini) * 3);
+
+    /*  阴影*/
+    --shadow-medium: 0 8px 30px rgba(0,0,0,0.12);
+    --shadow-large: 0 30px 60px rgba(0,0,0,0.12);
+
+    /* 过渡 */
+
+    --tranistion-all: all 0.2s ease 0s;
+
+    --opacity: 0.6;
+
+    /* 层级 */
+    --index: 10;
+    --index10: var(--index);
+    --index20: calc(var(--index) * 2);
+    --index30: calc(var(--index) * 3);
+    --index40: calc(var(--index) * 4);
+    --index50: calc(var(--index) * 5);
+    --index60: calc(var(--index) * 6);
+    --index70: calc(var(--index) * 7);
+    --index-highest: 999999;
+
 }
