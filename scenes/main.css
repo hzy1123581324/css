@@ -1,0 +1,24 @@
+/**********默认按钮***************/
+.common-btn{
+	height: var(--btn-height,);
+	/* background-color: #2E74F3; */
+	border-radius: var(--radius,0);
+	box-shadow: 0 2px 2px 0px var(--color-theme);
+}
+
+/**************镂空字体***********************/
+.hollowOut{
+	color: transparent;
+	background-clip:text;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent; /*文字的填充色*/
+	-webkit-text-stroke: 1.2px #000; /*文字的边框*/
+}
+
+
+.aside{
+	overflow: auto;
+	float: left;
+	height: 100%;
+	width: auto;
+}
