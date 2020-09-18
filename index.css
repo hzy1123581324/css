@@ -1,21 +1,24 @@
 /*v1.0*/
 @charset "UTF-8";
-@import "root.css";/*全局变量*/
-@import "common/reset.css";/*重设样式*/
-@import "common/grid.css";/*栅格布局*/
-@import "common/size.css";/*尺寸*/
-@import "common/font.css";/*字体设置*/
-@import "common/margin.css";/*字体设置*/
-@import "common/padding.css";/*字体设置*/
-@import "common/color.css";/*颜色*/
-@import "common/box.css";/*盒模型*/
-@import "common/flex.css";/*弹性布局*/
-@import "common/trans.css";/*动画/过渡/转换*/
-@import "common/icon.css";/*图标*/
-@import "common/bnt.css";/*按钮自带阴影*/
-@import "common/position.css";/*按钮自带阴影*/
-@import "common/component.css";/*组件样式*/
-@import "scene/main.css"; /*场景样式*/
+@import "./theme/common.css";/*默认主题*/
+@import "./theme/white.css";
+@import "./theme/black.css";
+@import "./common/reset.css";/*重设样式*/
+@import "./common/grid.css";/*栅格布局*/
+@import "./common/size.css";/*尺寸*/
+@import "./common/font.css";/*字体设置*/
+@import "./common/margin.css";/*字体设置*/
+@import "./common/padding.css";/*字体设置*/
+@import "./common/box.css";/*盒模型*/
+@import "./common/flex.css";/*弹性布局*/
+@import "./common/trans.css";/*动画/过渡/转换*/
+@import "./common/icon.css";/*图标*/
+@import "./common/bnt.css";/*按钮自带阴影*/
+@import "./common/position.css";/*按钮自带阴影*/
+@import "./common/component.css";/*组件样式*/
+@import "./scene/main.css"; /*场景样式*/
+/* @import "common/animate.css"; */
+@import "./common/color.css";/*背景颜色/字体颜色/边框颜色*/
 
 #app{
 	width:100%;
@@ -23,6 +26,13 @@
 	height: 100%;
 }
 
+textarea{/*去掉右下三角*/
+	resize:none;
+}
+html{
+	max-height: 100%;
+	height:100%;
+}
 html,body{
 	width:100%;
 	/*min-height: 100%;*/
@@ -30,9 +40,6 @@ html,body{
 	/* background:#fff; */
 	line-height: 1;
 	color:#333;
-}
-body{
-	/* background-color: #f6f5fa; */
 }
 
 /******************常用************************/
@@ -66,20 +73,3 @@ body{
 .overflow_scroll{
 	overflow: scroll;
 }
-/*背景颜色*/
-.body_bg{
-	background-color:#f6f5fa;
-}
-.bg_f55{
-	background-color:#f55;
-}
-.bor_main{
-	border-color: #509664;
-}
-.bg_main{
-	background-color: #19b5d6;
-}
-.color_main,.status1,.status4{
-	color: #509664 !important;
-}
-
