@@ -1,19 +1,9 @@
-/* 顶部样式 */
-.navbar-custom {
-    padding: 0 22px 0 37px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: var(--head-top,72px);
-    z-index: var(--index100);
-    background-color: #fff;
-    -webkit-box-shadow: 0 0.05rem 0.01rem rgba(75,75,90,.075);
-    box-shadow: 0 0.05rem 0.01rem rgba(75,75,90,.075);
-}
+@import "./header.css";/*头部样式*/
+
+
 /* 侧边栏样式 */
 .left-side-menu {
-    width: 250px;
+    width: var(--slide-width,250px);
     background: #fff;
     bottom: 0;
     padding: 0 0 30px 0;
@@ -27,9 +17,40 @@
 }
 /* 主体样式 */
 .content-page{
-    margin-left: 250px;
+    margin-left: var(--slide-width,250px);
     overflow: hidden;
     padding: 0 12.5px 5px 12.5px;
     min-height: 80vh;
     margin-top: 72px;
 }
+
+
+
+
+/**********默认按钮***************/
+.common-btn{
+	height: var(--btn-height,);
+	/* background-color: #2E74F3; */
+	border-radius: var(--radius,0);
+	box-shadow: 0 2px 2px 0px var(--color-theme);
+}
+
+/**************镂空字体***********************/
+.hollowOut{
+	color: transparent;
+	background-clip:text;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent; /*文字的填充色*/
+	-webkit-text-stroke: 1.2px #000; /*文字的边框*/
+}
+
+
+.aside{
+	overflow: auto;
+	float: left;
+	height: 100%;
+	width: auto;
+}
+
+
+

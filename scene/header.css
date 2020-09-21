@@ -1,32 +1,14 @@
+
+/* 顶部样式 */
 .navbar-custom {
     padding: 0 22px 0 37px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 72px;
+    height: var(--head-top,72px);
     z-index: var(--index100);
     background-color: #fff;
     -webkit-box-shadow: 0 0.05rem 0.01rem rgba(75,75,90,.075);
     box-shadow: 0 0.05rem 0.01rem rgba(75,75,90,.075);
-}
-.left-side-menu {
-    width: 250px;
-    background: #fff;
-    bottom: 0;
-    padding: 0 0 30px 0;
-    position: fixed;
-    top: 72px;
-    -webkit-transition-duration: .2s;
-    transition-duration: .2s;
-    -webkit-box-shadow: 1px 0.05rem 0.01rem rgba(75,75,90,.075);
-    box-shadow: 1px 0.05rem 0.01rem rgba(75,75,90,.075);
-    z-index: 99;
-}
-.content-page{
-    margin-left: 250px;
-    overflow: hidden;
-    padding: 0 12.5px 5px 12.5px;
-    min-height: 80vh;
-    margin-top: 72px;
 }

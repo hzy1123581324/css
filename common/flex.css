@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /************弹性布局*****************/
 .flex{
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
@@ -9,7 +8,7 @@
 	display: -webkit-flex; /* NEW - Chrome */
 	display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ *//* 09版 */
 }
-.flex_wrap {
+.flex-wrap {
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 	display: box; /* OLD - Android 4.4- */
 	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -26,7 +25,7 @@
 	flex-wrap: wrap;
   }
   
-  .flex_nowrap {
+  .flex-nowrap {
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 	display: box; /* OLD - Android 4.4- */
 	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -42,7 +41,7 @@
 	flex-wrap: nowrap;
   }
   
-  .flex_reverse {
+  .flex-reverse {
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 	display: box; /* OLD - Android 4.4- */
 	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -58,7 +57,7 @@
 	flex-direction: column !important;
   }
   
-  .flex_rg {
+  .flex-rg {
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 	display: box; /* OLD - Android 4.4- */
 	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -85,7 +84,7 @@
 	align-items: flex-end; /*单行*/
   }
   
-  .flex_top {
+  .flex-top {
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 	display: box; /* OLD - Android 4.4- */
 	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -98,7 +97,7 @@
 	align-items: flex-start; /*单行*/
   }
   
-  .flex_btm {
+  .flex-btm {
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 	display: box; /* OLD - Android 4.4- */
 	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -119,7 +118,7 @@
 	align-items: flex-end; /*单行*//*align-content: flex-end;/*多行*//*align-items: flex-end;/*单行*/
   }
   
-  .flex_center {
+  .flex-center {
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 	display: box; /* OLD - Android 4.4- */
 	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -147,7 +146,7 @@
 	align-items: center; /*单行*/
   }
   
-  .flex_center_x {
+  .flex-center-x {
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 	display: box; /* OLD - Android 4.4- */
 	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -163,7 +162,7 @@
 	justify-content: center;
   }
   
-  .flex_center_y {
+  .flex-center-y {
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 	display: box; /* OLD - Android 4.4- */
 	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -185,7 +184,7 @@
 	align-items: center; /*单行*/
   }
   
-  .flex_between {
+  .flex-between {
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 	display: box; /* OLD - Android 4.4- */
 	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -207,7 +206,7 @@
 	align-content: space-between; /*多行*/
   }
   
-  .flex_between_x {
+  .flex-between-x {
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 	display: box; /* OLD - Android 4.4- */
 	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -224,7 +223,7 @@
 	justify-content: space-between;
   }
   
-  .flex_between_y {
+  .flex-between-y {
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 	display: box; /* OLD - Android 4.4- */
 	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -240,7 +239,7 @@
 	align-content: space-between; /*多行*/
   }
   
-  .flex_around {
+  .flex-around {
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 	display: box; /* OLD - Android 4.4- */
 	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -262,7 +261,7 @@
 	align-content: space-around; /*多行*/
   }
   
-  .flex_around_x {
+  .flex-around-x {
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 	display: box; /* OLD - Android 4.4- */
 	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -279,7 +278,7 @@
 	justify-content: space-around;
   }
   
-  .flex_around_y {
+  .flex-around-y {
 	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 	display: box; /* OLD - Android 4.4- */
 	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -313,7 +312,7 @@
   
 
 
-  @media only screen and (min-width:320px){
+  @media only screen and (min-width:320px) and (max-width: 767px){
 	.flex-sx{
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
@@ -323,7 +322,7 @@
 		display: -webkit-flex; /* NEW - Chrome */
 		display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ *//* 09版 */
 	}
-	.flex-sx_wrap {
+	.flex-sx-wrap {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -340,7 +339,7 @@
 		flex-wrap: wrap;
 	  }
 	  
-	  .flex-sx_nowrap {
+	  .flex-sx-nowrap {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -356,7 +355,7 @@
 		flex-wrap: nowrap;
 	  }
 	  
-	  .flex-sx_reverse {
+	  .flex-sx-reverse {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -372,7 +371,7 @@
 		flex-direction: column !important;
 	  }
 	  
-	  .flex-sx_rg {
+	  .flex-sx-rg {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -399,7 +398,7 @@
 		align-items: flex-end; /*单行*/
 	  }
 	  
-	  .flex-sx_top {
+	  .flex-sx-top {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -412,7 +411,7 @@
 		align-items: flex-start; /*单行*/
 	  }
 	  
-	  .flex-sx_btm {
+	  .flex-sx-btm {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -433,7 +432,7 @@
 		align-items: flex-end; /*单行*//*align-content: flex-end;/*多行*//*align-items: flex-end;/*单行*/
 	  }
 	  
-	  .flex-sx_center {
+	  .flex-sx-center {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -461,7 +460,7 @@
 		align-items: center; /*单行*/
 	  }
 	  
-	  .flex-sx_center_x {
+	  .flex-sx-center-x {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -477,7 +476,7 @@
 		justify-content: center;
 	  }
 	  
-	  .flex-sx_center_y {
+	  .flex-sx-center-y {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -499,7 +498,7 @@
 		align-items: center; /*单行*/
 	  }
 	  
-	  .flex-sx_between {
+	  .flex-sx-between {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -521,7 +520,7 @@
 		align-content: space-between; /*多行*/
 	  }
 	  
-	  .flex-sx_between_x {
+	  .flex-sx-between-x {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -538,7 +537,7 @@
 		justify-content: space-between;
 	  }
 	  
-	  .flex-sx_between_y {
+	  .flex-sx-between-y {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -554,7 +553,7 @@
 		align-content: space-between; /*多行*/
 	  }
 	  
-	  .flex-sx_around {
+	  .flex-sx-around {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -576,7 +575,7 @@
 		align-content: space-around; /*多行*/
 	  }
 	  
-	  .flex-sx_around_x {
+	  .flex-sx-around-x {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -593,7 +592,7 @@
 		justify-content: space-around;
 	  }
 	  
-	  .flex-sx_around_y {
+	  .flex-sx-around-y {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -626,7 +625,7 @@
 	  }
   }
 
-  @media only screen and (min-width:768px){
+  @media only screen and (min-width:768px) and (max-width: 991px){
 	.flex-sm{
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
@@ -636,7 +635,7 @@
 		display: -webkit-flex; /* NEW - Chrome */
 		display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ *//* 09版 */
 	}
-	.flex-sm_wrap {
+	.flex-sm-wrap {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -653,7 +652,7 @@
 		flex-wrap: wrap;
 	  }
 	  
-	  .flex-sm_nowrap {
+	  .flex-sm-nowrap {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -669,7 +668,7 @@
 		flex-wrap: nowrap;
 	  }
 	  
-	  .flex-sm_reverse {
+	  .flex-sm-reverse {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -685,7 +684,7 @@
 		flex-direction: column !important;
 	  }
 	  
-	  .flex-sm_rg {
+	  .flex-sm-rg {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -712,7 +711,7 @@
 		align-items: flex-end; /*单行*/
 	  }
 	  
-	  .flex-sm_top {
+	  .flex-sm-top {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -725,7 +724,7 @@
 		align-items: flex-start; /*单行*/
 	  }
 	  
-	  .flex-sm_btm {
+	  .flex-sm-btm {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -746,7 +745,7 @@
 		align-items: flex-end; /*单行*//*align-content: flex-end;/*多行*//*align-items: flex-end;/*单行*/
 	  }
 	  
-	  .flex-sm_center {
+	  .flex-sm-center {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -774,7 +773,7 @@
 		align-items: center; /*单行*/
 	  }
 	  
-	  .flex-sm_center_x {
+	  .flex-sm-center-x {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -790,7 +789,7 @@
 		justify-content: center;
 	  }
 	  
-	  .flex-sm_center_y {
+	  .flex-sm-center-y {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -812,7 +811,7 @@
 		align-items: center; /*单行*/
 	  }
 	  
-	  .flex-sm_between {
+	  .flex-sm-between {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -834,7 +833,7 @@
 		align-content: space-between; /*多行*/
 	  }
 	  
-	  .flex-sm_between_x {
+	  .flex-sm-between-x {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -851,7 +850,7 @@
 		justify-content: space-between;
 	  }
 	  
-	  .flex-sm_between_y {
+	  .flex-sm-between-y {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -867,7 +866,7 @@
 		align-content: space-between; /*多行*/
 	  }
 	  
-	  .flex-sm_around {
+	  .flex-sm-around {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -889,7 +888,7 @@
 		align-content: space-around; /*多行*/
 	  }
 	  
-	  .flex-sm_around_x {
+	  .flex-sm-around-x {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -906,7 +905,7 @@
 		justify-content: space-around;
 	  }
 	  
-	  .flex-sm_around_y {
+	  .flex-sm-around-y {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -938,7 +937,7 @@
 		flex-shrink: 0;
 	  }
   }
-  @media only screen and (min-width:992px){
+  @media only screen and (min-width:992px) and (max-width: 1199px){
 	.flex-md{
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
@@ -948,7 +947,7 @@
 		display: -webkit-flex; /* NEW - Chrome */
 		display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ *//* 09版 */
 	}
-	.flex-md_wrap {
+	.flex-md-wrap {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -965,7 +964,7 @@
 		flex-wrap: wrap;
 	  }
 	  
-	  .flex-md_nowrap {
+	  .flex-md-nowrap {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -981,7 +980,7 @@
 		flex-wrap: nowrap;
 	  }
 	  
-	  .flex-md_reverse {
+	  .flex-md-reverse {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -997,7 +996,7 @@
 		flex-direction: column !important;
 	  }
 	  
-	  .flex-md_rg {
+	  .flex-md-rg {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1024,7 +1023,7 @@
 		align-items: flex-end; /*单行*/
 	  }
 	  
-	  .flex-md_top {
+	  .flex-md-top {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1037,7 +1036,7 @@
 		align-items: flex-start; /*单行*/
 	  }
 	  
-	  .flex-md_btm {
+	  .flex-md-btm {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1058,7 +1057,7 @@
 		align-items: flex-end; /*单行*//*align-content: flex-end;/*多行*//*align-items: flex-end;/*单行*/
 	  }
 	  
-	  .flex-md_center {
+	  .flex-md-center {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1086,7 +1085,7 @@
 		align-items: center; /*单行*/
 	  }
 	  
-	  .flex-md_center_x {
+	  .flex-md-center-x {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1102,7 +1101,7 @@
 		justify-content: center;
 	  }
 	  
-	  .flex-md_center_y {
+	  .flex-md-center-y {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1124,7 +1123,7 @@
 		align-items: center; /*单行*/
 	  }
 	  
-	  .flex-md_between {
+	  .flex-md-between {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1146,7 +1145,7 @@
 		align-content: space-between; /*多行*/
 	  }
 	  
-	  .flex-md_between_x {
+	  .flex-md-between-x {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1163,7 +1162,7 @@
 		justify-content: space-between;
 	  }
 	  
-	  .flex-md_between_y {
+	  .flex-md-between-y {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1179,7 +1178,7 @@
 		align-content: space-between; /*多行*/
 	  }
 	  
-	  .flex-md_around {
+	  .flex-md-around {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1201,7 +1200,7 @@
 		align-content: space-around; /*多行*/
 	  }
 	  
-	  .flex-md_around_x {
+	  .flex-md-around-x {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1218,7 +1217,7 @@
 		justify-content: space-around;
 	  }
 	  
-	  .flex-md_around_y {
+	  .flex-md-around-y {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1251,7 +1250,7 @@
 	  }
   }
 
-  @media only screen and (min-width:1200px){
+  @media only screen and (min-width:1200px) and (max-width: 1919px){
 	.flex-lg{
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
@@ -1261,7 +1260,7 @@
 		display: -webkit-flex; /* NEW - Chrome */
 		display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ *//* 09版 */
 	}
-	.flex-lg_wrap {
+	.flex-lg-wrap {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1278,7 +1277,7 @@
 		flex-wrap: wrap;
 	  }
 	  
-	  .flex-lg_nowrap {
+	  .flex-lg-nowrap {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1294,7 +1293,7 @@
 		flex-wrap: nowrap;
 	  }
 	  
-	  .flex-lg_reverse {
+	  .flex-lg-reverse {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1310,7 +1309,7 @@
 		flex-direction: column !important;
 	  }
 	  
-	  .flex-lg_rg {
+	  .flex-lg-rg {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1337,7 +1336,7 @@
 		align-items: flex-end; /*单行*/
 	  }
 	  
-	  .flex-lg_top {
+	  .flex-lg-top {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1350,7 +1349,7 @@
 		align-items: flex-start; /*单行*/
 	  }
 	  
-	  .flex-lg_btm {
+	  .flex-lg-btm {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1371,7 +1370,7 @@
 		align-items: flex-end; /*单行*//*align-content: flex-end;/*多行*//*align-items: flex-end;/*单行*/
 	  }
 	  
-	  .flex-lg_center {
+	  .flex-lg-center {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1399,7 +1398,7 @@
 		align-items: center; /*单行*/
 	  }
 	  
-	  .flex-lg_center_x {
+	  .flex-lg-center-x {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1415,7 +1414,7 @@
 		justify-content: center;
 	  }
 	  
-	  .flex-lg_center_y {
+	  .flex-lg-center-y {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1437,7 +1436,7 @@
 		align-items: center; /*单行*/
 	  }
 	  
-	  .flex-lg_between {
+	  .flex-lg-between {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1459,7 +1458,7 @@
 		align-content: space-between; /*多行*/
 	  }
 	  
-	  .flex-lg_between_x {
+	  .flex-lg-between-x {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1476,7 +1475,7 @@
 		justify-content: space-between;
 	  }
 	  
-	  .flex-lg_between_y {
+	  .flex-lg-between-y {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1492,7 +1491,7 @@
 		align-content: space-between; /*多行*/
 	  }
 	  
-	  .flex-lg_around {
+	  .flex-lg-around {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1514,7 +1513,7 @@
 		align-content: space-around; /*多行*/
 	  }
 	  
-	  .flex-lg_around_x {
+	  .flex-lg-around-x {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1531,7 +1530,7 @@
 		justify-content: space-around;
 	  }
 	  
-	  .flex-lg_around_y {
+	  .flex-lg-around-y {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1574,7 +1573,7 @@
 		display: -webkit-flex; /* NEW - Chrome */
 		display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ *//* 09版 */
 	}
-	.flex-xl_wrap {
+	.flex-xl-wrap {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1591,7 +1590,7 @@
 		flex-wrap: wrap;
 	  }
 	  
-	  .flex-xl_nowrap {
+	  .flex-xl-nowrap {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1607,7 +1606,7 @@
 		flex-wrap: nowrap;
 	  }
 	  
-	  .flex-xl_reverse {
+	  .flex-xl-reverse {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1623,7 +1622,7 @@
 		flex-direction: column !important;
 	  }
 	  
-	  .flex-xl_rg {
+	  .flex-xl-rg {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1650,7 +1649,7 @@
 		align-items: flex-end; /*单行*/
 	  }
 	  
-	  .flex-xl_top {
+	  .flex-xl-top {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1663,7 +1662,7 @@
 		align-items: flex-start; /*单行*/
 	  }
 	  
-	  .flex-xl_btm {
+	  .flex-xl-btm {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1684,7 +1683,7 @@
 		align-items: flex-end; /*单行*//*align-content: flex-end;/*多行*//*align-items: flex-end;/*单行*/
 	  }
 	  
-	  .flex-xl_center {
+	  .flex-xl-center {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1712,7 +1711,7 @@
 		align-items: center; /*单行*/
 	  }
 	  
-	  .flex-xl_center_x {
+	  .flex-xl-center-x {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1728,7 +1727,7 @@
 		justify-content: center;
 	  }
 	  
-	  .flex-xl_center_y {
+	  .flex-xl-center-y {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1750,7 +1749,7 @@
 		align-items: center; /*单行*/
 	  }
 	  
-	  .flex-xl_between {
+	  .flex-xl-between {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1772,7 +1771,7 @@
 		align-content: space-between; /*多行*/
 	  }
 	  
-	  .flex-xl_between_x {
+	  .flex-xl-between-x {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1789,7 +1788,7 @@
 		justify-content: space-between;
 	  }
 	  
-	  .flex-xl_between_y {
+	  .flex-xl-between-y {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1805,7 +1804,7 @@
 		align-content: space-between; /*多行*/
 	  }
 	  
-	  .flex-xl_around {
+	  .flex-xl-around {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1827,7 +1826,7 @@
 		align-content: space-around; /*多行*/
 	  }
 	  
-	  .flex-xl_around_x {
+	  .flex-xl-around-x {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1844,7 +1843,7 @@
 		justify-content: space-around;
 	  }
 	  
-	  .flex-xl_around_y {
+	  .flex-xl-around-y {
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1876,476 +1875,3 @@
 		flex-shrink: 0;
 	  }
   }
-=======
-/************弹性布局*****************/
-.flex {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-}
-
-.flex_wrap {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-	-webkit-box-orient: horizontal;
-	-webkit-box-lines: multiple;
-	/*ie  09*/
-	-webkit-flex-wrap: wrap;
-	-moz-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	-o-flex-wrap: wrap;
-	flex-wrap: wrap;
-}
-
-.flex_nowrap {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-	-webkit-box-orient: horizontal;
-	-webkit-flex-wrap: nowrap;
-	-moz-flex-wrap: nowrap;
-	-ms-flex-wrap: nowrap;
-	-o-flex-wrap: nowrap;
-	flex-wrap: nowrap;
-}
-
-.flex_reverse {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-	-webkit-box-orient: horizontal !important;
-	-webkit-flex-direction: column !important;
-	-moz-flex-direction: column !important;
-	-ms-flex-direction: column !important;
-	-o-flex-direction: column !important;
-	flex-direction: column !important;
-}
-
-.flex_rg {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-	-webkit-box-orient: horizontal;
-	-webkit-box-pack: flex-end;
-	/*09版*/
-	/* 12版 */
-	-webkit-justify-content: flex-end;
-	-moz-justify-content: flex-end;
-	-ms-justify-content: flex-end;
-	-o-justify-content: flex-end;
-	justify-content: flex-end;
-	-webkit-align-content: flex-end;
-	/*多行*/
-	-moz-align-content: flex-end;
-	/*多行*/
-	-ms-align-content: flex-end;
-	/*多行*/
-	-o-align-content: flex-end;
-	/*多行*/
-	align-content: flex-end;
-	/*多行*/
-	-webkit-align-items: flex-end;
-	/*单行*/
-	-moz-align-items: flex-end;
-	/*单行*/
-	-ms-align-items: flex-end;
-	/*单行*/
-	-o-align-items: flex-end;
-	/*单行*/
-	align-items: flex-end;
-	/*单行*/
-}
-
-.flex_top {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-	-webkit-box-orient: horizontal;
-	align-content: flex-start;
-	/*多行*/
-	align-items: flex-start;
-	/*单行*/
-}
-
-.flex_btm {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-	-webkit-box-orient: horizontal;
-	-webkit-align-content: flex-end;
-	/*多行*/
-	-moz-align-content: flex-end;
-	/*多行*/
-	-ms-align-content: flex-end;
-	/*多行*/
-	-o-align-content: flex-end;
-	/*多行*/
-	align-content: flex-end;
-	/*多行*/
-	-webkit-align-items: flex-end;
-	/*单行*/
-	-moz-align-items: flex-end;
-	/*单行*/
-	-ms-align-items: flex-end;
-	/*单行*/
-	-o-align-items: flex-end;
-	/*单行*/
-	align-items: flex-end;
-	/*单行*/
-	/*align-content: flex-end;/*多行*/
-	/*align-items: flex-end;/*单行*/
-}
-
-.flex_center {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-	-webkit-box-orient: horizontal;
-	-webkit-box-pack: center;
-	/*09版*/
-	-webkit-justify-content: center;
-	-moz-justify-content: center;
-	-ms-justify-content: center;
-	-o-justify-content: center;
-	justify-content: center;
-	-webkit-align-content: center;
-	/*多行*/
-	-moz-align-content: center;
-	/*多行*/
-	-ms-align-content: center;
-	/*多行*/
-	-o-align-content: center;
-	/*多行*/
-	align-content: center;
-	/*多行*/
-	-webkit-box-align: center;
-	/*09版*/
-	-webkit-align-items: center;
-	/*单行*/
-	-moz-align-items: center;
-	/*单行*/
-	-ms-align-items: center;
-	/*单行*/
-	-o-align-items: center;
-	/*单行*/
-	align-items: center;
-	/*单行*/
-}
-
-.flex_center_x {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-	-webkit-box-orient: horizontal;
-	-webkit-justify-content: center;
-	-moz-justify-content: center;
-	-ms-justify-content: center;
-	-o-justify-content: center;
-	justify-content: center;
-}
-
-.flex_center_y {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-	-webkit-box-orient: horizontal;
-	-webkit-align-content: center;
-	/*多行*/
-	-moz-align-content: center;
-	/*多行*/
-	-ms-align-content: center;
-	/*多行*/
-	-o-align-content: center;
-	/*多行*/
-	align-content: center;
-	/*多行*/
-	-webkit-box-align: center;
-	/*ie 09*/
-	-webkit-align-items: center;
-	/*单行*/
-	-moz-align-items: center;
-	/*单行*/
-	-ms-align-items: center;
-	/*单行*/
-	-o-align-items: center;
-	/*单行*/
-	align-items: center;
-	/*单行*/
-}
-
-.flex_between {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-	-webkit-box-orient: horizontal;
-	-webkit-box-pack: space-between;
-	/*09版*/
-	-webkit-justify-content: space-between;
-	-moz-justify-content: space-between;
-	-ms-justify-content: space-between;
-	-o-justify-content: space-between;
-	justify-content: space-between;
-	-webkit-align-content: space-between;
-	/*多行*/
-	-moz-align-content: space-between;
-	/*多行*/
-	-ms-align-content: space-between;
-	/*多行*/
-	-o-align-content: space-between;
-	/*多行*/
-	align-content: space-between;
-	/*多行*/
-}
-
-.flex_between_x {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-	-webkit-box-orient: horizontal;
-	-webkit-box-pack: space-between;
-	/*09版*/
-	-webkit-justify-content: space-between;
-	-moz-justify-content: space-between;
-	-ms-justify-content: space-between;
-	-o-justify-content: space-between;
-	justify-content: space-between;
-}
-
-.flex_between_y {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-	-webkit-box-orient: horizontal;
-	-webkit-align-content: space-between;
-	/*多行*/
-	-moz-align-content: space-between;
-	/*多行*/
-	-ms-align-content: space-between;
-	/*多行*/
-	-o-align-content: space-between;
-	/*多行*/
-	align-content: space-between;
-	/*多行*/
-}
-
-.flex_around {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-	-webkit-box-orient: horizontal;
-	-webkit-box-pack: space-around;
-	/*09版*/
-	-webkit-justify-content: space-around;
-	-moz-justify-content: space-around;
-	-ms-justify-content: space-around;
-	-o-justify-content: space-around;
-	justify-content: space-around;
-	-webkit-align-content: space-around;
-	/*多行*/
-	-moz-align-content: space-around;
-	/*多行*/
-	-ms-align-content: space-around;
-	/*多行*/
-	-o-align-content: space-around;
-	/*多行*/
-	align-content: space-around;
-	/*多行*/
-}
-
-.flex_around_x {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-	-webkit-box-orient: horizontal;
-	-webkit-box-pack: space-around;
-	/*09版*/
-	-webkit-justify-content: space-around;
-	-moz-justify-content: space-around;
-	-ms-justify-content: space-around;
-	-o-justify-content: space-around;
-	justify-content: space-around;
-}
-
-.flex_around_y {
-	/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
-
-	display: -webkit-box;
-	/* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;
-	/* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;
-	/* TWEENER - IE 10 */
-	display: -webkit-flex;
-	/* NEW - Chrome */
-	display: flex;
-	/* NEW, Spec - Opera 12.1, Firefox 20+ */
-	/* 09版 */
-	-webkit-box-orient: horizontal;
-	-webkit-align-content: space-around;
-	/*多行*/
-	-moz-align-content: space-around;
-	/*多行*/
-	-ms-align-content: space-around;
-	/*多行*/
-	-o-align-content: space-around;
-	/*多行*/
-	align-content: space-around;
-	/*多行*/
-}
-
-.grow {
-	-webkit-flex-grow: 1;
-	-moz-flex-grow: 1;
-	-ms-flex-grow: 1;
-	-o-flex-grow: 1;
-	flex-grow: 1;
-}
-
-.shrink {
-	-webkit-flex-shrink: 0;
-	-moz-flex-shrink: 0;
-	-ms-flex-shrink: 0;
-	-o-flex-shrink: 0;
-	flex-shrink: 0;
-}
->>>>>>> 756ac5cc90c64f51bbcbf0bce162e458b3919f9f

@@ -1,3 +1,81 @@
+
+@charset "UTF-8";
+
+textarea {
+    /*去掉右下三角*/
+    resize: none;
+}
+
+html {
+    max-height: 100%;
+}
+
+textarea {
+    /*去掉右下三角*/
+    resize: none;
+}
+
+html,
+body {
+    width: 100%;
+    /*min-height: 100%;*/
+    height: 100%;
+    /* background:#fff; */
+    line-height: 1;
+    color: var(--color-main, #333);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+input {
+    background-color: transparent;
+    font-size: inherit;
+}
+
+/*占位符样式*/
+/*用逗号隔开无效*/
+::-webkit-input-placeholder
+
+/* 使用webkit内核的浏览器 */
+    {
+    color: var(--placeholder-color, #999);
+    font-size: 1em;
+}
+
+:-moz-placeholder {
+    color: var(--placeholder-color, #999);
+    font-size: 1em;
+}
+
+::-moz-placeholder
+
+/* Firefox版本4-18 */
+    {
+    color: var(--placeholder-color, #999);
+    font-size: 1em;
+}
+
+:-ms-input-placeholde
+
+/* Firefox版本19+ */
+    {
+    color: var(--placeholder-color, #999);
+    font-size: 1em;
+}
+
+
+
+
 /* 自定义的溢出滚动条 */
 .user-defined-scrollbar::-webkit-scrollbar {
     /*滚动条整体样式*/
@@ -63,7 +141,7 @@ button, input,textarea {/**/
 	line-height: inherit;
 	outline: 0;
 	font-weight: 400;
-	position: relative;
+	position: unset;
 	font-style: normal;
 	/* background-color: inherit; */
 }

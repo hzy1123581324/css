@@ -1,66 +1,21 @@
 /*v1.0*/
 @charset "UTF-8";
+@import "./reset.css";/*重设样式*/
 @import "./theme/common.css";/*默认主题*/
-<<<<<<< HEAD
 @import "./theme/white.css";
 @import "./theme/black.css";
-@import "./common/reset.css";/*重设样式*/
 @import "./common/grid.css";/*栅格布局*/
-@import "./common/size.css";/*尺寸*/
 @import "./common/font.css";/*字体设置*/
-@import "./common/margin.css";/*字体设置*/
-@import "./common/padding.css";/*字体设置*/
-@import "./common/box.css";/*盒模型*/
 @import "./common/flex.css";/*弹性布局*/
-@import "./common/trans.css";/*动画/过渡/转换*/
 @import "./common/icon.css";/*图标*/
-@import "./common/bnt.css";/*按钮自带阴影*/
 @import "./common/position.css";/*按钮自带阴影*/
-@import "./common/component.css";/*组件样式*/
 @import "./scene/main.css"; /*场景样式*/
-/* @import "common/animate.css"; */
-@import "./common/color.css";/*背景颜色/字体颜色/边框颜色*/
-=======
-@import  "./theme/white.css";
-@import  "./theme/black.css";
-@import "common/reset.css";/*重设样式*/
-@import "common/grid.css";/*栅格布局*/
-@import "common/size.css";/*尺寸*/
-@import "common/font.css";/*字体设置*/
-@import "common/margin.css";/*字体设置*/
-@import "common/padding.css";/*字体设置*/
-@import "common/box.css";/*盒模型*/
-@import "common/flex.css";/*弹性布局*/
-@import "common/trans.css";/*动画/过渡/转换*/
-@import "common/icon.css";/*图标*/
-@import "common/bnt.css";/*按钮自带阴影*/
-@import "common/position.css";/*按钮自带阴影*/
-@import "common/component.css";/*组件样式*/
-@import "scene/main.css"; /*场景样式*/
-/* @import "common/animate.css"; */
-@import "common/color.css";/*背景颜色/字体颜色/边框颜色*/
->>>>>>> 756ac5cc90c64f51bbcbf0bce162e458b3919f9f
+@import "./common/animate.css";/*动画库*/
 
 #app{
 	width:100%;
 	overflow: auto;
 	height: 100%;
-}
-
-textarea{/*去掉右下三角*/
-	resize:none;
-}
-html{
-	max-height: 100%;
-	height:100%;
-}
-html,body{
-	width:100%;
-	/*min-height: 100%;*/
-	height:100%;
-	/* background:#fff; */
-	line-height: 1;
-	color:#333;
 }
 
 /******************常用************************/
@@ -93,4 +48,22 @@ html,body{
 }
 .overflow_scroll{
 	overflow: scroll;
+}
+
+
+.radius_c{
+	border-radius: 50%;
+}
+/*******************************/
+.block{
+	display: block !important;
+	width:100%;
+}
+.line_block{
+	display: inline-block !important;
+}
+
+/*阴影*/
+.shadow {
+	box-shadow: var(--shadow);
 }

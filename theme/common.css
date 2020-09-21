@@ -57,8 +57,8 @@
 	--margin-large: calc(var(--margin-mini) * 3);
 
 	/*  阴影*/
-	--shadow-border: 0px 1px 0px 0px rgba(0, 0, 0, 0.09);
-	--shadow-item: 0px 1px 8px 0px rgba(64, 64, 64, 0.11);
+    --shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.09);
+	
 
 	/* 过渡 */
 
@@ -90,6 +90,7 @@
 	--index-highest: 999999;
 	/*最高*/
 
+    --slide-width: 250px;
 
 	/* 栅格布局 */
 	--col: calc(100% / 24);
@@ -124,11 +125,15 @@
 	/* 鼠标悬浮 */
 	--active-color: var(--color-theme);
 	--active-bg: var(--bg-wihte);
-}
-
-/* 按钮 */
-.btn {
+    
+    
+    /* 按钮 */
 	--btn-bg: var(--color-theme);
 	--btn-shadow: 0 2px 2px 0px var(--color-theme);
 	--btn-radius: var(--radius);
+    --btn-active-color: #fff;
+    --btn-active-shadow: 
+}
+
+.btn {
 }
