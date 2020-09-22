@@ -312,7 +312,7 @@
   
 
 
-  @media only screen and (min-width:320px) and (max-width: 767px){
+  @media only screen and (min-width:320px) {
 	.flex-sx{
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
@@ -625,7 +625,7 @@
 	  }
   }
 
-  @media only screen and (min-width:768px) and (max-width: 991px){
+  @media only screen and (min-width:768px) {
 	.flex-sm{
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
@@ -937,7 +937,7 @@
 		flex-shrink: 0;
 	  }
   }
-  @media only screen and (min-width:992px) and (max-width: 1199px){
+  @media only screen and (min-width:992px) {
 	.flex-md{
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */
@@ -1250,7 +1250,7 @@
 	  }
   }
 
-  @media only screen and (min-width:1200px) and (max-width: 1919px){
+  @media only screen and (min-width:1200px) {
 	.flex-lg{
 		/*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
 		display: box; /* OLD - Android 4.4- */

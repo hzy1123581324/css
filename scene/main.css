@@ -17,7 +17,7 @@
 }
 /* 主体样式 */
 .content-page{
-    margin-left: var(--slide-width,250px);
+    margin-left: var(--content-left,250px);
     overflow: hidden;
     padding: 0 12.5px 5px 12.5px;
     min-height: 80vh;
@@ -29,10 +29,10 @@
 
 /**********默认按钮***************/
 .common-btn{
-	height: var(--btn-height,);
+	height: var(--btn-height,48px);
 	/* background-color: #2E74F3; */
 	border-radius: var(--radius,0);
-	box-shadow: 0 2px 2px 0px var(--color-theme);
+	box-shadow: 0 2px 2px 0px var(--btn-shadow);
 }
 
 /**************镂空字体***********************/
@@ -43,7 +43,6 @@
 	-webkit-text-fill-color:transparent; /*文字的填充色*/
 	-webkit-text-stroke: 1.2px #000; /*文字的边框*/
 }
-
 
 .aside{
 	overflow: auto;
