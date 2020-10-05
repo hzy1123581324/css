@@ -14,7 +14,31 @@
     -webkit-box-shadow: 1px 0.05rem 0.01rem rgba(75,75,90,.075);
     box-shadow: 1px 0.05rem 0.01rem rgba(75,75,90,.075);
     z-index: var(--index90);
+    overflow-y:scroll;
 }
+.side-list{
+    
+}
+.side-item{
+    padding: 12px 30px;
+}
+.side-item.haschild{
+    padding-left: 0;
+    padding-right: 0;
+}
+.side-item:not([class*=haschild]):hover,.side-item:not([class*=haschild]).hover{
+    background-color: #ececec;
+}
+.side-item.haschild>.side-menu-title{
+    padding: 12px 30px;
+}
+.side-item .side-item{
+    padding-left: 50px;
+}
+.side-menu-title:hover,.side-menu-title.hover{
+    color: #ff8;
+}
+
 /* 主体样式 */
 .content-page{
     margin-left: var(--content-left,250px);
