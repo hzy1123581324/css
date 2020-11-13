@@ -1,0 +1,28 @@
+/* 侧边栏样式 */
+.left-side-menu {
+    width: var(--slide-width,250px);
+    background: #fff;
+    bottom: 0;
+    padding: 0 0 30px 0;
+    position: fixed;
+    left: 0px;
+    top: var(--head-top);
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-box-shadow: 1px 0.05rem 0.01rem rgba(75,75,90,.075);
+    box-shadow: 1px 0.05rem 0.01rem rgba(75,75,90,.075);
+    z-index: var(--index90);
+}
+
+.side-menu-title{
+    line-height: 40px;
+    
+}
+
+.side-menu-item{
+    line-height: 48px;
+}
+
+.side-menu-item:hover{
+    background-color: var(--active-bg);
+}
