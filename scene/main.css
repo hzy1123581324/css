@@ -1,20 +1,7 @@
 @import "./header.css";/*头部样式*/
+@import "./side.css";/*侧边栏样式*/
+@import "./btn.css"; //
 
-
-/* 侧边栏样式 */
-.left-side-menu {
-    width: var(--slide-width,250px);
-    background: #fff;
-    bottom: 0;
-    padding: 0 0 30px 0;
-    position: fixed;
-    top: 72px;
-    -webkit-transition-duration: .2s;
-    transition-duration: .2s;
-    -webkit-box-shadow: 1px 0.05rem 0.01rem rgba(75,75,90,.075);
-    box-shadow: 1px 0.05rem 0.01rem rgba(75,75,90,.075);
-    z-index: var(--index90);
-}
 /* 主体样式 */
 .content-page{
     margin-left: var(--content-left,250px);
@@ -27,13 +14,6 @@
 
 
 
-/**********默认按钮***************/
-.common-btn{
-	height: var(--btn-height,48px);
-	/* background-color: #2E74F3; */
-	border-radius: var(--radius,0);
-	box-shadow: 0 2px 2px 0px var(--btn-shadow);
-}
 
 /**************镂空字体***********************/
 .hollowOut{

@@ -30,7 +30,7 @@
 
 
 	/* 字体大小 */
-	--font-main: 28px;
+	--font-main: 16px;
 
 	/* 背景色 */
 	--bg-grey: #F3F3F3;
@@ -39,7 +39,7 @@
 
 	/* 边框 */
 	--border-color: #BDBDBD;
-	--border-width: 2px;
+	--border-width: 1px;
 	--border: var(--border-width) solid var(--border-color);
 	--border-black: var(--border-width) solid var(--color-black);
 
@@ -93,7 +93,7 @@
     
     /* 侧边栏宽度 */
     --slide-width: 250px;
-
+	--head-top: 73px;
 
 	/* 状态 */
 	/* 	--type-primary: #2979ff;
@@ -124,16 +124,18 @@
 
 	/* 鼠标悬浮 */
 	--active-color: var(--color-theme);
-	--active-bg: var(--bg-wihte);
+	--active-bg: #efefef;
     
     
     /* 按钮 */
 	--btn-bg: var(--color-theme);
+	--btn-shadow-color: var(--color-theme);
 	--btn-shadow: 0 2px 2px 0px var(--color-theme);
 	--btn-radius: var(--radius);
     --btn-active-color: #fff;
-    --btn-active-shadow: 
+    --btn-active-shadow: 0 4px 2px 0px var(--color-theme);
 }
 
 .btn {
+
 }
