@@ -50,6 +50,9 @@
 	overflow: scroll;
 }
 
+a{
+	cursor: pointer;
+}
 
 .radius_c{
 	border-radius: 50%;
@@ -66,4 +69,7 @@
 /*阴影*/
 .shadow {
 	box-shadow: var(--shadow);
+}
+.noscrollbar::-webkit-scrollbar{
+	display: none;
 }
